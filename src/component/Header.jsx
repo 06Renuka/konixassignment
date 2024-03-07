@@ -17,9 +17,7 @@ function Header({
     setBitcoinImageSrc("bitcoinImage"); // Reset the image source
   };
 
-  const colorStyle = {
-    color: btcChange >= 0 ? "green" : "red",
-  };
+  
 
   return (
     <div
@@ -53,6 +51,7 @@ function Header({
           </span>
 
           <button
+           onClick={handleClick}
             style={{
               border: "1px",
               backgroundColor: "grey",
