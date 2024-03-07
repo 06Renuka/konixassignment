@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Bitcoin%20/static/css/main.de62cc6b.css",
+    "main.js": "/Bitcoin%20/static/js/main.a6bdc1be.js",
+    "static/js/453.5d8972c1.chunk.js": "/Bitcoin%20/static/js/453.5d8972c1.chunk.js",
+    "static/media/bitcoin-btc-logo.png": "/Bitcoin%20/static/media/bitcoin-btc-logo.82491fef997ab841639c.png",
+    "index.html": "/Bitcoin%20/index.html",
+    "main.de62cc6b.css.map": "/Bitcoin%20/static/css/main.de62cc6b.css.map",
+    "main.a6bdc1be.js.map": "/Bitcoin%20/static/js/main.a6bdc1be.js.map",
+    "453.5d8972c1.chunk.js.map": "/Bitcoin%20/static/js/453.5d8972c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de62cc6b.css",
+    "static/js/main.a6bdc1be.js"
+  ]
+}
