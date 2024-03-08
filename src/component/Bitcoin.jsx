@@ -36,7 +36,7 @@ function Bitcoin() {
         setCoinName("Bitcoin");
         setBitcoinImage('')
 
-        console.log(setBtcChange(data.bitcoin.usd));
+        //console.log(setBtcChange(data.bitcoin.usd));
         setBtcChangeInr(data.bitcoin.inr);
         setBtcChange(data.bitcoin.usd_24h_change.toFixed(2));
         if (data.bitcoin.name) {
@@ -57,7 +57,7 @@ function Bitcoin() {
         if (bitcoin) {
           setBitcoinImage(bitcoin.item.small);
           setBitcoinMarketCapRank(bitcoin.item.market_cap_rank)
-          console.log(setBitcoinMarketCapRank(bitcoin.item.market_cap_rank))
+          //console.log(setBitcoinMarketCapRank(bitcoin.item.market_cap_rank))
         }
 
         // If Bitcoin data is found, extract the market cap rank and image URL
@@ -71,7 +71,7 @@ function Bitcoin() {
 
   return (
     <div>
-    <p>Cryptocurrencies >><strong>Bitcoin</strong> </p>
+    <p>Cryptocurrencies >> <strong>Bitcoin</strong> </p>
     
     <Container >
     
