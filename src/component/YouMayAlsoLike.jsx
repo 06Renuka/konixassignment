@@ -18,7 +18,7 @@ function YouMayAlsoLike({ trendingCoins }) {
     <div style={{marginBottom:'100px'}}>
       <h4 style={{margin:'10px'}}>You May Also Like</h4>
 
-      <div style={{ display: "flex" ,flexDirection:'row',width:'100%' ,height:'150px'}}>
+      <div style={{ display: "flex" ,flexDirection:'row',width:'100%' ,height:'200px'}}>
 
         {currentIndex >= 0 && <button className="left"  onClick={prevSlide}><FontAwesomeIcon icon={faChevronLeft} /></button>}
 
