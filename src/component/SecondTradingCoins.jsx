@@ -15,7 +15,7 @@ function SecondTradingCoins({ trendingCoins }) {
   };
 
   return (
-    <div>
+    <div style={{marginBottom:'100px'}}>
       <h4 style={{margin:'10px'}}>TrendingCoins</h4>
 
       <div style={{ display: "flex" }}>
@@ -27,7 +27,7 @@ function SecondTradingCoins({ trendingCoins }) {
 
             <div
               key={index}
-              style={{ border: "1px solid #000", margin: "5px" }}
+              style={{ border: "1px solid #000", margin: "5px", width:'25%',height:'150px' }}
             >
 
               <div>

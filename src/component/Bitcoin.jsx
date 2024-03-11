@@ -28,7 +28,7 @@ function Bitcoin() {
   useEffect(() => {
     // Fetch Bitcoin price and 24h change from Coingecko API
     fetch(
-      "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd,inr&include_24hr_change=true"
+      `https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd,inr&include_24hr_change=true`
     )
       .then((response) => response.json())
       .then((data) => {
@@ -46,7 +46,7 @@ function Bitcoin() {
 
 
     // Fetch trending coins from Coingecko API
-    fetch("https://api.coingecko.com/api/v3/search/trending")
+    fetch(`https://api.coingecko.com/api/v3/search/trending`)
       .then((response) => response.json())
       .then((data) => {
         setTrendingCoins(data.coins.slice(0, 3));
@@ -71,7 +71,7 @@ function Bitcoin() {
 
   return (
     <div>
-    <p>Cryptocurrencies >> <strong>Bitcoin</strong> </p>
+    
     
     <Container >
     

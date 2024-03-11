@@ -15,10 +15,10 @@ function YouMayAlsoLike({ trendingCoins }) {
   };
 
   return (
-    <div>
+    <div style={{marginBottom:'100px'}}>
       <h4 style={{margin:'10px'}}>You May Also Like</h4>
 
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" ,flexDirection:'row',width:'100%' ,height:'150px'}}>
 
         {currentIndex >= 0 && <button className="left"  onClick={prevSlide}><FontAwesomeIcon icon={faChevronLeft} /></button>}
 
@@ -27,7 +27,7 @@ function YouMayAlsoLike({ trendingCoins }) {
 
             <div
               key={index}
-              style={{ border: "1px solid #000", margin: "5px" }}
+              style={{ border: "1px solid #000", margin: "5px" , width:'25%'}}
             >
 
               <div>

@@ -9,9 +9,10 @@ function App() {
     <div className="bg-light min-vh-100">
       <Router>
         <NavBar />
+       
         <div className="container">
           <Routes>
-            <Route path="/" element={<Bitcoin />} />
+            <Route path="/" element={<Bitcoin/>} />
           </Routes>
         </div>
       </Router>
