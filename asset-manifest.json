@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/konixassignment%20/static/css/main.de62cc6b.css",
-    "main.js": "/konixassignment%20/static/js/main.3b5c9f3c.js",
+    "main.js": "/konixassignment%20/static/js/main.38d94787.js",
     "static/js/453.5d8972c1.chunk.js": "/konixassignment%20/static/js/453.5d8972c1.chunk.js",
     "static/media/bitcoin-btc-logo.png": "/konixassignment%20/static/media/bitcoin-btc-logo.82491fef997ab841639c.png",
     "index.html": "/konixassignment%20/index.html",
     "main.de62cc6b.css.map": "/konixassignment%20/static/css/main.de62cc6b.css.map",
-    "main.3b5c9f3c.js.map": "/konixassignment%20/static/js/main.3b5c9f3c.js.map",
+    "main.38d94787.js.map": "/konixassignment%20/static/js/main.38d94787.js.map",
     "453.5d8972c1.chunk.js.map": "/konixassignment%20/static/js/453.5d8972c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de62cc6b.css",
-    "static/js/main.3b5c9f3c.js"
+    "static/js/main.38d94787.js"
   ]
 }
