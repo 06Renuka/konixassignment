@@ -1,6 +1,7 @@
 {
-  "homepage": "https://06Renuka.github.io/konixassignment ",
+ 
   "name": "konixassignment",
+  "homepage": "https://06Renuka.github.io/konixassignment",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
